@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PRACTICA 1</title>
+<link href="css/bootstrap.min.css" rel="stylesheet"> 
+</head> 
+<body> 
+
+<H1>#1 Bootstrap.</H1>
+
+<div class="container" style="background-color:#0fa">
+<h2>BOOTSTRAP</h2>
+<P>Asi es como sale</P>
+</div> 
+
+<h2>2# Sistemas de guerrillas de bootstrap.</h2>
+
+<div class="container">
+<div class="row">
+
+<div class="col-lg-3"  style="background-color:#cee">
+<h3>Columna #1</h3> 
+<p>Asi es como sale</p>
+</div>
+
+<div class="col-lg-3"  style="background-color:#cee">
+<h3>Columna #2</h3>
+<p>Asi es como sale</p>
+</div>
+</div>
+
+<hr>
+
+<div class="row">
+<div class="col-md-3"  style="background-color:#caa">
+<h3>Columna #1</h3> 
+<p>Asi es como sale</p>
+</div>
+
+<div class="col-md-3"  style="background-color:#caa">
+<h3>Columna #2</h3>
+<p>Asi es como sale</p>
+</div>
+</div>
+
+<hr>
+
+<div class="row">
+<div class="col-sm-3"  style="background-color:#cee">
+<h3>Columna #1</h3> 
+<p>Asi es como sale</p>
+</div>
+
+
+<div class="col-sm-3"  style="background-color:#cee">
+<h3>Columna #2</h3> 
+<p>Asi es como sale</p>
+</div>
+</div>
+
+<h2>3# Multiples reglas a las columnas de una fila.</h2>
+
+<div class="container">
+
+<div class="row">
+<div class="col-lg-10 col-md-8 col-sm-7 col-xs-6"style="background-color:#0cc">
+<h3>Columna #1</h3> 
+<p>Asi es como sale</p>
+</div>
+
+<div class="col-lg-2 col-md-4 col-sm-5 col-xs-6"style="background-color:#0cc">
+<h3>Columna #2</h3> 
+<p>Asi es como sale</p>
+</div>
+</div>
+</div> 
+
+<h2>4# Anidamiento de columnas</h2>
+
+<div class="container">
+
+<div class="row">
+<div class="col-lg-6"  style="background-color:#0ff">
+<h3>Columna #1</h3> 
+<p>Asi es como sale</p>
+</div>
+
+<div class="col-lg-6"  style="background-color:#0ff">
+<h3>Columna #2</h3> 
+<p>Asi es como sale</p>
+<div class="row">  
+<div class="col-lg-6" style="background-color:#cff">
+<h3>Columna #2a</h3>
+<p>Asi es como sale</p>
+</div>  
+
+<div class="col-lg-6" style="background-color:#cff">
+<h3>Columna #2b</h3>
+<p>Asi es como sale</p>
+</div>  
+</div>
+
+</div>
+</div>
+
+</div>
+
+<h2>#5 Offset (desplazamiento) de columnas.</h2>
+<div class="container">
+
+<div class="row">
+<div class="col-lg-4"style="background-color:#cff">
+<h3>Asi es como sale</h3> 
+</div>
+<div class="col-lg-4 col-lg-offset-4"style="background-color:#0ff">
+<h3>Asi es como sale</h3> 
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-4 col-lg-offset-4"style="background-color:#cff">
+<h3>Asi es como sale</h3> 
+</div>
+</div>
+
+<div class="row">
+<div class="col-lg-4"style="background-color:#0ff">
+<h3>Asi es como sale</h3> 
+</div>
+
+<div class="col-lg-4 col-lg-offset-4"style="background-color:#cff">
+<h3>Asi es como sale</h3> 
+</div>
+</div>
+
+</div> 
+
+<h2>#6 Contenedor: container y containter-fluid</h2>
+<div class="container">
+
+<div class="row">
+<div class="col-lg-4"style="background-color:#0fa">
+<h3>Columna #1</h3> 
+<p>Asi es como sale</p>
+</div>
+
+<div class="col-lg-4"style="background-color:#0ff">
+<h3>Columna #2</h3> 
+<p>Asi es como sale</p>
+</div>
+</div>
+</div> 
+
+<div class="container-fluid">
+
+<div class="row">
+<div class="col-lg-4"style="background-color:#0ff">
+<h3>Columna #1</h3> 
+<p>Asi es como sale</p>
+</div>
+
+<div class="col-lg-4"style="background-color:#0fa">
+<h3>Columna #2</h3> 
+<p>Asi es como sale</p>
+</div>
+</div>
+</div> 
+
+<h2>#7 tabla: basica</h2>
+
+<div class="container">
+<table class="table">
+<thead> 
+<tr> 
+<th>Asi es como sale #1</th> 
+<th>Asi es como sale #2</th>
+<th>Asi es como sale #3</th>
+</tr> 
+</thead>
+
+<tbody>
+<tr> 
+<td>Asi es como sale</td>
+<td>Asi es como sale</td> 
+<td>Asi es como sale</td> 
+</tr>
+
+<tr> 
+<td>Asi es como sale</td>
+<td>Asi es como sale</td> 
+<td>Asi es como sale</td> 
+</tr>
+
+<tr> 
+<td>Asi es como sale</td>
+<td>Asi es como sale</td> 
+<td>Asi es como sale</td> 
+</tr>
+</tbody>
+</table>
+</div> 
+
+<h2>#8 tabla: con filas con colores alternos</h2>
+<style>
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+background-color: #0fa;
+}
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+background-color: #cff;
+}
+.table-striped>thead>tr>th {
+background-color: #0ff;
+}
+</style>
+
+
+<div class="container">
+<table class="table table-striped">
+<thead> 
+<tr> 
+<td>Asi es como sale #1</td>
+<td>Asi es como sale #2</td>
+<td>Asi es como sale #3</td>
+</tr> 
+</thead>
+<tbody>
+
+<tr> 
+<td>Asi es como sale</td>
+<td>Asi es como sale</td>
+<td>Asi es como sale</td> 
+</tr>
+
+<tr> 
+<td>Asi es como sale</td>
+<td>Asi es como sale</td>
+<td>Asi es como sale</td>
+</tr>
+
+<tr> 
+<td>Asi es como sale</td>
+<td>Asi es como sale</td>
+<td>Asi es como sale</td>
+</tr>
+</tbody>
+</table>
+</div> 
+
+</body>
+</html>
